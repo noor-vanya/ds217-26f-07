@@ -1,0 +1,29 @@
+{
+  "critique": [
+    {
+      "category": "unsupported claim",
+      "problem": "The title makes an immediate claim about the effectiveness of center-based rehab leading to better attendance",
+      "repair": "Use a title that reflects the data being shown, that the home-based and center-based rehab attendances were shown by quarter 1 and quarter 2"
+    },
+    {
+      "category": "truncated baseline",
+      "problem": "The y-axis should start at 0 to make the chart more visually accurate",
+      "repair": "Make the y-axis start from 0"
+    },
+    {
+      "category": "missing unit",
+      "problem": "The y-axis label is missing so we do not know exactly what data is being represented",
+      "repair": "Include the correct y-axis label"
+    },
+    {
+      "category": "color-only encoding",
+      "problem": "The home-based and center-based rehab encoding need to be in color only",
+      "repair": "Two colors that can be distinguishable in grey-scale but also friendly for color-blind people, for the home-based and center-based rehab, respectively"
+    },
+    {
+      "category": "distracting decoration",
+      "problem": "The criss-cross design is shared for both rehabs, the grid lines that lay ontop of the bars, and the corner of the bottom bars that cross into the white space are all distracting and look messy",
+      "repair": "Clean up the extra lines, and choose a distinguishable pattern for each rehab"
+    }
+  ]
+}
